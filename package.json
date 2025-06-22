@@ -1,10 +1,12 @@
 {
   "name": "@maksiks/test-npm-project",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A test",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/maksiksq/test-npm-project/issues"
   },
-  "homepage": "https://github.com/maksiksq/test-npm-project#readme"
+  "homepage": "https://github.com/maksiksq/test-npm-project#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  }
 }
