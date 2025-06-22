@@ -21,6 +21,12 @@
   "bugs": {
     "url": "https://github.com/maksiksq/test-npm-project/issues"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "homepage": "https://github.com/maksiksq/test-npm-project#readme",
   "devDependencies": {
     "@types/node": "^24.0.3",
