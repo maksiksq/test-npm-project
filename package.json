@@ -1,0 +1,23 @@
+{
+  "name": "@maksiks/test-npm-project",
+  "version": "1.0.0",
+  "description": "A test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksiksq/test-npm-project.git"
+  },
+  "keywords": [
+    "test",
+    "testtest"
+  ],
+  "author": "maksiks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksiksq/test-npm-project/issues"
+  },
+  "homepage": "https://github.com/maksiksq/test-npm-project#readme"
+}
